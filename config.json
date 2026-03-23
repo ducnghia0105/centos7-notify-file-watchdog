@@ -1,0 +1,11 @@
+{
+  "monitor": "on",
+  "debounce_seconds": 15,
+  "watch_extensions": [".php", ".js", ".txt"],
+  "themes": "flatsome1, flatsome2",
+  "telegram": {
+    "bot_token": "token bot",
+    "chat_id": "chat id"
+  }
+}
+
