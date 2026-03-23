@@ -20,7 +20,7 @@ Thư mục /var/thienduccode
 # 1.Tạo file service chạy tự động
 nano /etc/systemd/system/thienduc-monitor-telegram.service
 
-chèn nội dung
+#chèn nội dung
 [Unit]
 Description=File Monitor Telegram
 After=network.target
@@ -38,10 +38,10 @@ WantedBy=multi-user.target
 
 
 # 2.Kích hoạt và chạy
-systemd systemctl daemon-reload
-systemctl enable thienduc-monitor-telegram
-systemctl start thienduc-monitor-telegram
-systemctl status thienduc-monitor-telegram
+#systemd systemctl daemon-reload
+#systemctl enable thienduc-monitor-telegram
+#systemctl start thienduc-monitor-telegram
+#systemctl status thienduc-monitor-telegram
 
 log
 # Xem log realtime journalctl - thienduc-monitor-telegram -f
